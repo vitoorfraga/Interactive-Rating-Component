@@ -1,0 +1,95 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+
+  <!-- Style -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>Interactive Rating Component | FrontEnd Mentor</title>
+</head>
+
+<body>
+  <main>
+    <div class="container show" id="rating-ask">
+      <div class="app">
+        <div class="icon">
+          <img src="./icon-star.svg" alt="Star Icon">
+        </div>
+      </div>
+
+      <div class="title">
+        <h1>How did we do?</h1>
+      </div>
+
+      <div class="copy">
+        <p>Please let us skow how we did with your support request. All feedback is appeciated to help us improve our offering!</p>
+      </div>
+
+      <div class="rating">
+        <div class="rating-option" id="1">
+          <span>1</span>
+        </div>
+
+        <div class="rating-option" id="2">
+          <span>2</span>
+        </div>
+
+        <div class="rating-option" id="3">
+          <span>3</span>
+        </div>
+
+        <div class="rating-option" id="4">
+          <span>4</span>
+        </div>
+
+        <div class="rating-option" id="5">
+          <span>5</span>
+        </div>
+
+      </div>
+
+      <div class="button" id="button">
+        SUBMIT
+      </div>
+
+    </div>
+
+    <div class="container" id="rating-confirmed">
+      <div class="image">
+        <img src="./illustration-thank-you.svg" alt="">
+      </div>
+
+      <div class="selected-bar">
+        <p>You selected <span id="idselected">*</span> out of 5</p>
+      </div>
+
+      <div class="title">
+        <h1>Thank you!</h1>
+      </div>
+
+      <div class="copy">
+        <p>We appreciate you talking the time to give a rating.
+          <br>
+          If you ever need more support, don't hesitate to get in touch!
+        </p>
+      </div>
+
+
+    </div>
+    </div>
+    <script src="script.js"></script>
+  </main>
+</body>
+
+</html>
